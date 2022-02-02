@@ -5,9 +5,9 @@
 @endsection
 
 @section('pageContent')
-<div class="hero">
-    <img src="{{asset('img/jumbotron.jpg')}}" alt="jumbotron">
-</div>
+    <div class="hero">
+        <img src="{{asset('img/jumbotron.jpg')}}" alt="jumbotron">
+    </div>
 
     <div class="container">
         
