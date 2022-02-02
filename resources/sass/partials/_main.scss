@@ -1,5 +1,5 @@
 main {
-    background-color: black;
+    background-color: #1c1c1c;
     .hero {
         img {
             width: 100%;
@@ -13,6 +13,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1em;
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
     .card {
         width: calc(100% / 6 - 10px);
         margin: 20px 5px;
@@ -26,6 +30,45 @@ main {
             color: blanchedalmond;
             font-size: 0.9em;
             margin: 1em 0;
+        }
+    }
+}
+.center {
+    text-align: center;
+    padding-bottom: 2em;
+    button {
+        padding: 1em 5em;
+        border: none;
+        background-color: #0282f9;
+        color: blanchedalmond;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+.links {
+    background-color: #0282f9;
+    padding: 3em;
+    ul {
+        display: flex;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        li {
+            margin: 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 50px;
+            }
+            a {
+                display: inline-block;
+                padding: 10px;
+                font-size: 1.1rem;
+                text-decoration: none;
+                color: wheat;
+            }
         }
     }
 }

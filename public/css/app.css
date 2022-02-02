@@ -67,20 +67,19 @@ body {
 
 .header .main-nav ul li a {
   display: inline-block;
-  padding: 10px;
-  font-size: 1.1rem;
+  padding: 1.5em;
+  font-size: 1.1em;
   text-decoration: none;
   color: black;
 }
 
 .header .main-nav ul li a.active {
-  padding: 1.5em 0;
-  border-bottom: 3px solid #0282f9;
+  border-bottom: 0.5em solid #0282f9;
   color: #0282f9;
 }
 
 main {
-  background-color: black;
+  background-color: #1c1c1c;
 }
 
 main .hero img {
@@ -96,6 +95,11 @@ main .hero img {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1em;
+}
+
+.cards a {
+  list-style: none;
+  text-decoration: none;
 }
 
 .cards .card {
@@ -116,5 +120,51 @@ main .hero img {
   color: blanchedalmond;
   font-size: 0.9em;
   margin: 1em 0;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.center button {
+  padding: 1em 5em;
+  border: none;
+  background-color: #0282f9;
+  color: blanchedalmond;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.links {
+  background-color: #0282f9;
+  padding: 3em;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links ul li {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul li img {
+  height: 50px;
+}
+
+.links ul li a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: wheat;
 }
 
