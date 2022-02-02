@@ -18,19 +18,22 @@ body {
 }
 
 .header .up-nav {
-  display: flex;
-  justify-content: flex-end;
   background-color: #0282f9;
 }
 
-.header .up-nav li {
-  margin: 0 10px;
+.header .up-nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.header .up-nav li a {
+.header .up-nav ul li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+.header .up-nav ul li a {
   padding: 10px;
   font-size: 0.9rem;
   text-decoration: none;
@@ -59,7 +62,7 @@ body {
 }
 
 .header .main-nav ul li {
-  margin: 0 10px;
+  margin: 0 5px;
   display: flex;
   justify-content: center;
   align-items: center;

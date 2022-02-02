@@ -1,6 +1,6 @@
 <header class="header">
-    <nav>
-        <ul class="up-nav">
+    <nav class="up-nav">
+        <ul >
             <li>
                 <a href="#">Dc Power Visa</a>
             </li>
