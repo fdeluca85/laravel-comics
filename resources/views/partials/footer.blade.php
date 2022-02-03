@@ -20,6 +20,7 @@
                             <li><a href="#">Shop DC Collectibles</a></li>
                         </ul>
                     </div>
+                    
                 </div>
                 
                 <div class="dc">
@@ -47,11 +48,35 @@
                         <li><a href="#">DC Universe</a></li>
                         <li><a href="#">DC Power Visa</a></li>
                     </ul>
+
                 </div>
+                
             </div>   
-    
+            <div>
+                <p class="disclaimer">All Site Content TM and C 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved. </p>
+                <p class="disclaimer">  <a href="#">Cookies Settings</a></p>
+            </div>
     
         </div>
+        
+    </div>
+    <div class="footer-down">
+            <div class="container-foot">
+                <div class="btn-action">
+                    <button>
+                        Sign-up Now!
+                    </button>
+                </div>
+            
+                <div class="social-links">
+                    <h2>Follow Us</h2>
+                    <a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('img/footer-twitter.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt=""></a>
+                </div>
+            </div>
     </div>
     
 </footer>

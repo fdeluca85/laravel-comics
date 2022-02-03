@@ -154,6 +154,7 @@ main .hero img {
   background-image: url("../img/footer-bg.jpg");
   height: 400px;
   background-position: center top;
+  background-size: cover;
 }
 
 .link-footer {
@@ -166,7 +167,7 @@ main .hero img {
   color: white;
 }
 .link-footer ul {
-  padding: 1em;
+  padding: 0.8em 1em;
 }
 .link-footer ul li {
   list-style: none;
@@ -176,4 +177,52 @@ main .hero img {
   text-transform: none;
   text-decoration: none;
   color: lightgray;
+}
+
+.disclaimer {
+  font-size: 0.8em;
+  color: lightgray;
+  text-transform: none;
+  padding-left: 1em;
+}
+.disclaimer a {
+  color: #0282f9;
+  text-decoration: none;
+}
+
+.footer-down {
+  background-color: #303030;
+  height: 100px;
+  display: flex;
+}
+.footer-down .container-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+button {
+  margin: 0 100px;
+  border: 1px solid #0282f9;
+  background-color: #303030;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-links h2 {
+  color: #0282f9;
+}
+.social-links a {
+  padding: 10px 15px;
 }
